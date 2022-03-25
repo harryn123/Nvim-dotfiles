@@ -37,9 +37,9 @@ filetype plugin indent on    " required
 " Theme "
 "Keeps background of original terminal""
 autocmd VimEnter * hi Normal ctermbg=none 
-set background=dark
+"set background=dar
 "colorscheme ghdark"
-colorscheme gruvbox
+"colorscheme gruvbox
 highlight Normal ctermbg=NONE
 
 
@@ -81,10 +81,8 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline_section_z = ' %{strftime("%-I:%M %p")}'
 let g:airline_section_warning = ''
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='github'
+"let g:airline_theme='github'
 "let g:airline_thene='owo'
-
-
 
 syntax on
 set signcolumn=yes
